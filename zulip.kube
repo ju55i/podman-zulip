@@ -1,0 +1,10 @@
+[Unit]
+Description=Zulip Enterpise Chat
+After=network-online.target
+
+[Install]
+WantedBy=default.target
+
+[Kube]
+Yaml=/opt/zulip/zulip-deployment.yaml
+ConfigMap=/opt/zulip/zulip-configmaps.yaml
