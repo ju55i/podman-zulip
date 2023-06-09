@@ -68,5 +68,3 @@ metadata:
 data:
     RABBITMQ_DEFAULT_PASS: $RABBITMQ_PASSWORD
     RABBITMQ_DEFAULT_USER: zulip
-
-

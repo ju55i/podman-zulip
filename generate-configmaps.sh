@@ -15,4 +15,4 @@ ZULIP_SECRET_KEY=$(random_string)
 
 source zulip-vars.env
 
-envsubst < zulip-configmap-template.yaml > zulip-configmap.yaml
+envsubst < zulip-configmap-template.yaml > zulip-configmaps.yaml
