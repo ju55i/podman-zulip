@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: memcached-vars
+data:
+    MEMCACHED_PASSWORD: $MEMCACHED_PASSWORD
+    MEMCACHED_SASL_PWDB: /home/memcache/memcached-sasl-db
+    SASL_CONF_PATH: /home/memcache/memcached.conf

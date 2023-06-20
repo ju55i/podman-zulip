@@ -15,4 +15,8 @@ ZULIP_SECRET_KEY=$(random_string)
 
 source zulip-vars.env
 
-envsubst < zulip-configmap-template.yaml > zulip-configmaps.yaml
+envsubst < templates/zulip-configmap-template-zulip.yaml > zulip-configmap-zulip.yaml
+envsubst < templates/zulip-configmap-template-postgres.yaml > zulip-configmap-postgres.yaml
+envsubst < templates/zulip-configmap-template-redis.yaml > zulip-configmap-redis.yaml
+envsubst < templates/zulip-configmap-template-memcached.yaml > zulip-configmap-memcached.yaml
+envsubst < templates/zulip-configmap-template-rabbitmq.yaml > zulip-configmap-rabbitmq.yaml
