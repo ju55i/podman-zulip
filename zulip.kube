@@ -12,3 +12,4 @@ ConfigMap=/opt/zulip/zulip-configmap-postgres.yaml
 ConfigMap=/opt/zulip/zulip-configmap-redis.yaml
 ConfigMap=/opt/zulip/zulip-configmap-rabbitmq.yaml
 ConfigMap=/opt/zulip/zulip-configmap-memcached.yaml
+TimeoutStartSec=600
