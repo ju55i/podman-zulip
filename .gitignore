@@ -1,1 +1,5 @@
-zulip-configmaps.yaml
+zulip-configmap-memcached.yaml
+zulip-configmap-postgres.yaml
+zulip-configmap-rabbitmq.yaml
+zulip-configmap-redis.yaml
+zulip-configmap-zulip.yaml

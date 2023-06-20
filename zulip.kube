@@ -7,4 +7,8 @@ WantedBy=default.target
 
 [Kube]
 Yaml=/opt/zulip/zulip-deployment.yaml
-ConfigMap=/opt/zulip/zulip-configmaps.yaml
+ConfigMap=/opt/zulip/zulip-configmap-zulip.yaml
+ConfigMap=/opt/zulip/zulip-configmap-postgres.yaml
+ConfigMap=/opt/zulip/zulip-configmap-redis.yaml
+ConfigMap=/opt/zulip/zulip-configmap-rabbitmq.yaml
+ConfigMap=/opt/zulip/zulip-configmap-memcached.yaml
